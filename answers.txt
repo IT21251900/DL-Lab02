@@ -1,0 +1,24 @@
+IT21251900 - Rajapaksha R.M.S.D
+
+1.  Error seems to have reduced even further compared to 200 number of iterations. 
+    Seems like with the given learning rate of 0.5 can do better with a larger number of 
+    iterations when attmepting to calculate the minimum cost to find the best weights
+
+2.
+    2.1. 
+    When the number of hidden nodes were set to a lower number the accuracy was low (in the 60s). 
+    This could mean the model might not be complex enough to capture the relevant information potentially leading
+    to a case of underfitting. However when the number of hiddne layers increase we see a substantial amount
+    of growth in the prediction accuracy while the error kept reducing. 
+    This could mean the model is capturing the necessary relevant infor from the input data and the model complexity 
+    is high. However when the hidden nodes increased past a certain amount (>20) the accuracy of the model seems
+    to fluctuate in between 90 - 93% implying that the best cost has been achived within this range. However we do
+    not know if the model is overly complex which could lead it to overfitting. 
+    Meaning the model has to be tested with a test data and the correct number of hidden nodes has to be 
+    decided upon it
+
+    2.2. 
+    (PLOT IS SHOWN IN THE NN_sample.ipynb file) Initially from 2-4 hidden layers, the accuracy would substantially increase
+    from 67% to 90%. Afterwards it reaches the minimum cost and any substantial increase in hidden layers(4-10, 10-20, 20-50, 50-70 hidden layers)
+    would not bring any significant change as accuracies would fluctuate between 90% to 94%.
+
